@@ -43,6 +43,25 @@ wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.c
 ```
 ------------------
 
+# 为什么会有ServerStatus中文版(魔改版)：
+
+* 最主要是方便自己使用
+* 原始项目很优秀，但是不便于操作
+* 留着代码备份
+* 有些功能确实没用
+* 原版本部署，英文说明复杂
+* 不符合中文版的习惯
+* 没有一次又一次的轮子，哪来如此优秀的云探针
+
+# 相关开源项目，感谢： 
+
+* cppla: https://github.com/cppla/ServerStatus
+* ServerStatus：https://github.com/BotoX/ServerStatus
+* mojeda: https://github.com/mojeda 
+* mojeda's ServerStatus: https://github.com/mojeda/ServerStatus
+* BlueVM's project: http://www.lowendtalk.com/discussion/comment/169690#Comment_169690
+
+
 # 以下为原始项目
 
 # 自动部署：
@@ -152,18 +171,3 @@ pip install psutil
 ```diff
 @reboot root /root/client-linux.py SERVER=$server USER=$user
 ```
-
-# 为什么会有ServerStatus中文版：
-
-* 有些功能确实没用
-* 原版本部署，英文说明复杂
-* 不符合中文版的习惯
-* 没有一次又一次的轮子，哪来如此优秀的云探针
-
-# 相关开源项目，感谢： 
-
-* ServerStatus：https://github.com/BotoX/ServerStatus
-* mojeda: https://github.com/mojeda 
-* mojeda's ServerStatus: https://github.com/mojeda/ServerStatus
-* BlueVM's project: http://www.lowendtalk.com/discussion/comment/169690#Comment_169690
-* cppla: https://github.com/cppla/ServerStatus
